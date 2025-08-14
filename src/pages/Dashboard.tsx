@@ -24,8 +24,7 @@ import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
 
 // Define the base URL for your backend API
-const API_BASE_URL = "http://localhost:5000"; // ⚠️ IMPORTANT: Update this to your backend URL when deployed!
-
+const API_BASE_URL = "https://nawsystems.tech"; 
 const Dashboard = () => {
   const [selectedFile, setSelectedFile] = useState<FileItem | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
